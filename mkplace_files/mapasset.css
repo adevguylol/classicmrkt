@@ -1,0 +1,103 @@
+/* Content styles */
+/* #content { width: 710px; float: right;
+	padding-top: 30px; margin-left: -4px; }
+#content ul li a { text-decoration: none;
+	font-size: 8pt;
+	color: #036F87; }
+#content ul li a:hover { text-decoration: underline; } */
+
+#hero #blurb { position: absolute; bottom: 20px; left: 30px; color: #fff;
+   width: 340px; }
+#hero #blurb h2 { font-size: 14pt; font-weight: normal;
+   margin-bottom: 12px; }
+#hero #blurb p { margin-bottom: 10px; }
+
+#hero #pullout { width: 532px; height: 411px;
+   position: absolute; right: 15px; bottom: 20px;
+   background-image: url(http://web.archive.org/web/20071002182544im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/hero-pullout-bkgd.gif);
+   background-repeat: no-repeat;
+   padding: 10px 0px 10px 20px; }
+
+#hero #pullout div { float: left;
+   width: 164px;
+   padding: 5.5px; }
+#hero #pullout div.divider { border-right: solid 1px #ccc; }
+#hero #pullout p { font-weight: bold; font-size: 8pt; }
+#hero #pullout h3 { clear: both;
+   letter-spacing: -1px;
+   font-size: 11pt;
+   padding: 4px 0 8px 0; }
+#hero #pullout h3 a { color: #249fb6; font-size: 8pt; text-decoration: none;
+   padding-left: 10px; }
+#hero #pullout h3 a:hover { text-decoration: underline; }
+#hero #pullout div a { display: block; text-align: center; }
+
+
+.col3-1.teal-3 li, .col3-2.teal-3 li, .col3-3.teal-3 li { border-left: solid 1px #87ABBE;
+	border-right: solid 1px #87ABBE;
+	border-bottom: solid 1px #87ABBE;
+	padding: 4px 8px; }
+.col3-1.black-3 li, .col3-2.black-3 li, .col3-3.black-3 li { border-left: solid 1px #5b5b5b;
+	border-right: solid 1px #5b5b5b;
+	border-bottom: solid 1px #5b5b5b;
+	padding: 4px 8px; }
+.col3-1.orange-3 li, .col3-2.orange-3 li, .col3-3.orange-3 li { border-left: solid 1px #a2733a;
+	border-right: solid 1px #a2733a;
+	border-bottom: solid 1px #a2733a;
+	padding: 4px 8px; }
+
+.col3-1, .col3-2, .col3-3 { width: 210px;
+	min-height: 200px;
+	float: left;
+	margin-left: 20px; }
+.col3-1 li.title, .col3-2 li.title, .col3-3 li.title { padding: 2px 10px;
+	color: #fff;
+	border: none; }
+.col3-1.teal-3 li.title, .col3-2.teal-3 li.title, .col3-3.teal-3 li.title { background-image: url(http://web.archive.org/web/20071002182544im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/col3Top-teal.gif); }
+.col3-1.black-3 li.title, .col3-2.black-3 li.title, .col3-3.black-3 li.title { background-image: url(http://web.archive.org/web/20071002182544im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/col3Top-black.gif); }
+.col3-1.orange-3 li.title, .col3-2.orange-3 li.title, .col3-3.orange-3 li.title { background-image: url(http://web.archive.org/web/20071002182544im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/col3Top-orange.gif); }
+
+
+.col2-1, .col2-2 { width: 324px;
+	float: left;
+	margin-left: 20px; }
+
+.col2-1.teal-2 li, .col2-2.teal-2 li { border-left: solid 1px #87ABBE;
+	border-right: solid 1px #87ABBE;
+	border-bottom: solid 1px #87ABBE;
+	padding: 4px 8px; }
+.col2-1.black-2 li, .col2-2.black-2 li { border-left: solid 1px #5b5b5b;
+	border-right: solid 1px #5b5b5b;
+	border-bottom: solid 1px #5b5b5b;
+	padding: 4px 8px; }
+.col2-1.orange-2 li, .col2-2.orange-2 li { border-left: solid 1px #a2733a;
+	border-right: solid 1px #a2733a;
+	border-bottom: solid 1px #a2733a;
+	padding: 4px 8px; }
+
+.col2-1 li.title, .col2-2 li.title { padding: 2px 10px;
+	background-repeat: no-repeat; border: none; color: #fff; }
+.col2-1.teal-2 li.title, .col2-2.teal-2 li.title { background-image: url(http://web.archive.org/web/20071002182544im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/col2Top-teal.gif); }
+.col2-1.black-2 li.title, .col2-2.black-2 li.title { background-image: url(http://web.archive.org/web/20071002182544im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/col2Top-black.gif); }
+.col2-1.orange-2 li.title, .col2-2.orange-2 li.title { background-image: url(http://web.archive.org/web/20071002182544im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/col2Top-orange.gif); }
+
+/*
+     FILE ARCHIVED ON 18:25:44 Oct 02, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:33:51 Aug 25, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 455.46
+  exclusion.robots: 0.089
+  exclusion.robots.policy: 0.078
+  cdx.remote: 0.068
+  esindex: 0.008
+  LoadShardBlock: 393.224 (3)
+  PetaboxLoader3.datanode: 510.185 (4)
+  load_resource: 308.698
+  PetaboxLoader3.resolve: 118.943
+*/

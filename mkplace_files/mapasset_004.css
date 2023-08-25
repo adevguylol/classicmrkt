@@ -1,0 +1,239 @@
+/* Zero-Grade Styles */
+body { padding: 0; margin: 0; background-color: #fff;
+   font: normal 10pt/13pt Arial, Verdana, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, ul, ol, li, dl, dt, dd, p { margin: 0; padding: 0; }
+a, img { border: 0; outline: none; }
+
+/* Styles for lists */
+li { list-style: none; }
+.disc { list-style-type: disc; }
+.circle { list-style-type: circle; }
+.square { list-style-type: square; }
+.decimal { list-style-type: decimal; }
+.upperRoman { list-style-type: upper-roman; }
+.lowerRoman { list-style-type: lower-roman; }
+.lowerAlpha { list-style-type: lower-alpha; }
+.lowerAlpha { list-style-type: lower-alpha; }
+
+/* Frame Styles */
+body { margin-top: -10px; }
+.clearfloat { clear: both; }
+#bodyBackground { background-image: url(http://web.archive.org/web/20071002182533im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/bkgd-gradient-top.gif);
+   background-repeat: repeat-x;
+   background-position: top left; 
+   background-color: #fff; }
+#main { background-image: url(http://web.archive.org/web/20071002182533im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/bkgd-gradient-bottom.png);
+   background-repeat: repeat-x;
+   background-position: bottom left; }
+#bframe { min-height: 700px;
+    margin: 0 auto;
+    width: 951px;
+    padding: 0 19px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(http://web.archive.org/web/20071002182533im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/bkgd-glass-edge.png);
+    background-repeat: repeat-y;
+    background-position: left top; }
+#header { height: 180px;
+    background-image: url(http://web.archive.org/web/20071002182533im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/header-glass-edge.jpg);
+    background-repeat: no-repeat; }
+#footer, #header {
+   width: 989px;
+   margin: 0 auto;
+   text-align: center; }
+#masthead {  position: relative; top: 36px; left: 16px; width: 956px; 
+	margin-bottom: 10px; }
+#masthead h1 { height: 59px; width: 411px; margin: 0; padding: 0;
+   text-indent: -1000000px;
+   background-image: url(http://web.archive.org/web/20071002182533im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/wmp-logo.jpg);
+   background-repeat: no-repeat; float: left; }
+/* Negative left margin forces branding image up next to wmp logo */
+#branding img { display: block; float: right; margin-left: -30px; }
+
+
+#headerlinks { position: absolute; top: 14px; right: 0px; text-align: right; line-height: 20px; }
+#headerlinks li { list-style: none; display: inline; margin-right: 10px; }
+#headerlinks li#digitallockerimg { background-image: url(http://web.archive.org/web/20071002182533im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/digitallocker.gif); background-repeat: no-repeat; padding-left: 24px; padding-bottom: 4px; }
+#headerlinks li a { text-decoration: none; color: #fff; padding-right: 12px;
+   font-size: 8pt;
+   font-family: Verdana, Arial, Helvetica, sans-serif; }
+#headerlinks li a:hover { text-decoration: underline; }
+#headerlinks li a img { border: none; outline: none; }
+#headerlinks ul li a.divider { border-right: solid 1px #fff; }
+/* Header SearchBox1 Styles */
+#SearchBar1 { text-align: left; padding: 5px 10px;
+   position: absolute; bottom: 0px;
+   border-left: solid 1px #447799;
+   border-right: solid 1px #447799;
+   border-bottom:solid 1px #447799;
+   width: 934px;
+   height: 24px;
+   margin-left: 16px;
+   background-image: url(http://web.archive.org/web/20071002182533im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/search_assets/searchbar-bkgd.gif);
+   background-position: center left;
+   background-repeat: repeat-x;
+   z-index: 1; }
+#SearchBar1 label { color: #fff; font: normal 12px Verdana;
+   margin-right: 4px; }
+.searchTextbox { width: 454px;height:18px;border:1px solid #447799;}
+.submitButton { margin-left: 2px;position:relative;top:1px;font-family:Verdana;background-image:url(http://web.archive.org/web/20071002182533im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/search_assets/s_btn.gif);height:21px;width:27px;border:0px;}
+.searchDropdown{color: #000000;border:1px solid #447799;margin-left:2px;height:20px;}
+
+
+/* Styles for footer */
+#footerBkgd { min-height: 80px; clear: both; padding: 0; margin: 0;
+   background-image: url(http://web.archive.org/web/20071002182533im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/footer-bkgd.png);
+   background-repeat: no-repeat;
+   background-position: bottom left;
+   background-color: #6590B7; }
+#SearchBar2 { text-align: left; padding: 5px 10px;
+   width: 969px;
+   background-image: url(http://web.archive.org/web/20071002182533im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/search_assets/searchBar2-bkgd.png);
+   background-position: center left;
+   background-repeat: repeat-x;
+   height: 21px; }
+#SearchBar2 label { color: #fff; font: normal 9pt Arial, Helvetica, sans-serif;
+   margin-right: 4px; }
+#SearchBar2 form { margin-left: 20px; }
+
+/* Styles for footer bottom links */
+/* Specific width + centering prevents white links from overlapping
+the white Microsoft Logo on the bottom right */
+ul.footerlinks { text-align: center; margin: 0 auto;
+   width: 800px; padding: 0; }
+ul.first { padding-top: 20px; }
+ul.footerlinks li { display: inline; list-style: none;
+   padding: 0 6px 0 4px; margin: 0;
+   font-family: Arial, Helvetica, sans-serif; }
+ul.footerlinks ul { clear: both; }
+ul.footerlinks li, ul.footerlinks li a { font-size: 8pt; color: #fff; }
+.footerlinks li a { text-decoration: none; font-family: Arial, Helvetica, sans-serif; }
+.footerlinks li a:hover { text-decoration: underline; }
+li.divider { border-right: solid 1px #fff; }
+
+/* Styles for topNavigation Menu */
+
+#header { position: relative; z-index: 10000; }
+#bframe { position: relative; z-index: 1; }
+   
+
+#bframe #breadcrumbs { padding: 6px 0 6px 12px; }
+#bframe #breadcrumbs li { list-style: none;
+   float: left; }
+#bframe #breadcrumbs li, #bframe #breadcrumbs li a { text-decoration: none;
+   font-weight: normal;
+   font-size: 9pt; }
+#bframe #breadcrumbs li a { color: #036F87;  margin-right: 10px; font-family: Arial, Helvetica, sans-serif;}
+#bframe #breadcrumbs li a:hover { text-decoration: underline; }
+li.hiddenLink { display: none; }
+
+/* Styles for Refine Left-side Menus */
+#refine h3 { color: #036F87; font-size: 11pt; font-weight: bold;
+	margin-bottom: 8px; }
+#refine .title { color: #036F87; font-size: 10pt; font-weight: bold;   /* For border below: */
+   border-bottom: solid 1px #036F87;
+   margin-bottom: 6px; }
+#refine ul { margin-bottom: 15px;  margin-top: 15px;}
+#refine li { list-style: none; padding: 0;  
+			 margin: 0 0 0 18px; position: relative; 
+		   }
+#refine span.numberSpace { display: block; width: 24px; text-align: right;  left: -30px; position: absolute;  visibility:hidden }
+#refine li a { text-decoration: none; font-weight: normal; font-size: 9pt;
+    color: #000; }
+#refine li a:hover { text-decoration: underline; }
+#refine .noMoreRefine li { font-size: 8pt; }
+#refine .showMoreResults { padding-top: 8px;}
+#refine .showMoreResults a { color: #036F87; }
+
+/* Styles for Nav Left-side Menus */
+#nav { width: 200px; float: left; padding: 10px; }
+#nav .title a { color: #036F87; font-size: 11pt; font-weight: bold; }
+#nav .title {  /* For border below: */
+   border-bottom: solid 1px #036F87;
+   margin-bottom: 6px; }
+#nav ul { margin-bottom: 15px; }
+#nav li { list-style: none; }
+#nav li a { text-decoration: none; font-weight: normal; font-size: 9pt;
+    color: #000; }
+#nav li a:hover { text-decoration: underline; }
+
+/* Styles for Global Tabs
+Section-specific definitions are in tab-1.css, tab-2.css, tab-3.css and tab-4.css) */
+ul#tabs { top: 93px; margin:1px 0 0 16px; 
+	background-image:url(http://web.archive.org/web/20071002182533im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/nav_assets/tab_b-ff.gif);height:30px;width:956px;
+	position: absolute; 
+	z-index: 900000; }
+ul#tabs li { float: left; margin:1px 0 0 20px;
+	}
+ul#tabs li a, ul#tabs li span { 
+	display: block;
+	width:160px; 
+	color: #fff;
+	text-decoration: none;
+    font: 12px Verdana;}
+
+ul#tabs #tab2, ul#tabs #tab3{margin:0 0 0 10px;}
+    
+/* Styles for Global Menus
+Section-specific definitions are in tab-1.css, tab-2.css, tab-3.css and tab-4.css) */
+
+#topNavigation, #topNavigation ul, #topNavigation li { list-style: none;
+    margin: 0; padding: 0; }
+ul#topNavigation { float: left;}
+#topnav { width: 957px;
+  position: absolute; top: 123px;
+  margin-left: 16px;
+  z-index: 50000; }
+/* Float list items left to create horizontal menu
+   This will float sub-list list items as well,
+   so afterwardss cancel their float. */
+.topNavDropDown  { float: left;}
+
+/* Style for sub-menu */
+#topNavigation li ul li { float: none; }
+
+#topNavigation li ul li a { color: #fff;
+	border-top: none;
+   border-bottom: none;
+   padding: 2px 0; }
+
+/* Hide sub-menus */
+#topNavigation li ul { display: none; }
+
+/* Show sub-menus when hover top menu items */
+/* class .listhover is for IE6 to trigger dropdown menu action */
+#topNavigation li:hover ul, #topNavigation li.listHover ul { display: block; }
+#topNavigation li.listHover a.keyboardFocus { display: block; }
+
+.topNavDropDown { margin-left: 0; }
+.topNavDropDown a { padding: 4px 0 0 0;
+	text-align: center; }
+
+   
+
+/*  Preload Images for Menus */
+#menuPieces { margin: 0px; background-image: url(http://web.archive.org/web/20071002182533im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/menus/sub-menu-body.png); height: 0px; width: 0px; background-repeat: no-repeat; background-position: top left;  }
+#menuPieces span { margin: 0px; display: block; height: 0px; width: 0px; background-image: url(http://web.archive.org/web/20071002182533im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/menus/sub-menu-bottom.png); font-size: 1px; background-repeat: no-repeat; background-position: bottom left; }
+
+
+
+/*
+     FILE ARCHIVED ON 18:25:33 Oct 02, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:33:51 Aug 25, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 418.187
+  exclusion.robots: 0.069
+  exclusion.robots.policy: 0.059
+  cdx.remote: 0.055
+  esindex: 0.009
+  LoadShardBlock: 276.745 (3)
+  PetaboxLoader3.resolve: 422.745 (2)
+  PetaboxLoader3.datanode: 1161.842 (4)
+  load_resource: 1391.343
+*/

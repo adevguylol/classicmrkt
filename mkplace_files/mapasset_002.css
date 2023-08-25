@@ -1,0 +1,1643 @@
+/* Showcase Hero */
+
+#view2 {
+width:125px;
+}
+#view2 ul{
+padding:0px;
+margin:0px;
+}
+#view2 li{
+margin:0 15px 0 2px;
+font-size:12px;
+color:#797979;
+font-family:arial;
+font-weight:bold;
+width:140px;
+}
+#view2 li img{
+height:100px;
+width:100px;
+border:1px solid #cccccc;
+}
+#view2 ul{
+list-style: none;
+}
+#tmp_2{
+margin:0px 0 10px 0;
+}
+#tmp_productss #rightalign{
+float:right;
+}
+#tmp_productss #rightalign.hero_bubble{
+background:white;
+filter:alpha(opacity=85); opacity:.90;
+border:1px solid #CCCCCC;
+height:430px;
+width:550;
+position:relative; top: 20px; right: 20px;
+  }
+#tmp_productss ul{
+display:inline;
+}
+#tmp_productss_blurb{
+float:left;
+}
+#tmp_productss_blurb.white #tmp_30{
+width:340px;
+font-size:11px;
+font-family:arial;
+color:#FFFFFF;
+height:470;
+padding:20px;
+}
+#tmp_productss_blurb.white #tmp_30 h2{
+font-size:18px;
+font-family:arial;
+color:#FFFFFF;
+}
+#tmp_productss_blurb.black #tmp_30{
+width:380px;
+height:470px;
+font-size:11px;
+font-family:arial;
+color:#000000;
+padding:0 0 0 10px;
+}
+#tmp_productss_blurb.black #tmp_30 h2{
+font-size:16px;
+font-family:arial;
+color:#000000;
+}
+#tmp_productss_blurb.green #tmp_30{
+width:380px;
+height:470px;
+font-size:11px;
+font-family:arial;
+color:#05554e;
+padding:0 0 0 10px;
+}
+#tmp_productss_blurb.green #tmp_30 h2{
+font-size:16px;
+font-family:arial;
+color:#05554e;
+} 
+#tmp_productss_blurb.grey #tmp_30{
+width:380px;
+height:470px;
+font-size:11px;
+font-family:arial;
+color:#6a6a6a;
+padding:0 0 0 10px;
+}
+#tmp_productss_blurb.grey #tmp_30 h2{
+font-size:16px;
+font-family:arial;
+color:#6a6a6a;
+}
+#tmp_productss_blurb.blue #tmp_30{
+width:380px;
+height:470px;
+font-size:11px;
+font-family:arial;
+color:#7182ff;
+padding:0 0 0 10px;
+}
+#tmp_productss_blurb.blue #tmp_30 h2{
+font-size:16px;
+font-family:arial;
+color:#7182ff;
+}
+#tmp_productss_blurb.red #tmp_30{
+width:380px;
+height:470px;
+font-size:11px;
+font-family:arial;
+color:#cb2929;
+padding:0 0 0 10px;
+}
+#tmp_productss_blurb.red #tmp_30 h2{
+font-size:16px;
+font-family:arial;
+color:#cb2929;
+}
+#tmp_productss #rightalign.hero_bubble h3{
+float:none;
+font-size:14px;
+font-family:arial;
+color:#000000;
+margin:10px 0 0 10px;
+}
+
+
+/* Category Hero Modules */
+
+#cat_hero #mod_text .textdivider a{
+margin-right:5px;
+}
+#cat_hero #mod_text .textdivider2 a{
+margin-left:5px;
+margin-right:5px;
+}
+#cat_hero #mod_text .text{
+padding:0 67px 0 4px;
+}
+#cat_hero li.background{
+width:708px;
+height:220px;
+background-repeat: no-repeat;
+font-size:11px;
+font-family:arial;
+border:1px solid #CCC;
+}
+
+#cat_hero{
+width:710px;
+float:right;
+padding:0 4px 0 0;
+}
+
+#cat_hero #hero_bubble{
+background:white;
+filter:alpha(opacity=92); opacity:.90;
+width:370px;
+height:190px;
+border:1px solid #CCCCCC;
+position:relative; right:-305px; top: 10px;
+padding:4px 12px 5px 10px;
+}
+#cat_hero #hero_bubble .mimg{
+float:left;
+}
+
+#cat_hero #prodshot img{
+border:1px solid #CCCCCC;
+width:100px;
+height:100px;
+background:white;
+float:left;
+margin:0 5px 0px 0px;
+}
+
+#cat_hero #hero_bubble .title{
+font-size:13px;
+font-family:arial;
+color:#333333;
+font-weight:bold;
+border-bottom:1px solid #CCCCCC;
+padding:5px 0px 5px 0px;
+margin:0 0 12px 0;
+}
+#cat_hero #hero_bubble #prodshot_detail{
+float:left;margin:0 0 0 10px;
+}
+#cat_hero #hero_bubble #prodshot_detail .text{
+font-size:11px;
+line-height:11pt;
+font-family:arial;
+color:#333333;
+width:260px;
+float:left;
+}
+#cat_hero #prodshot_detail .product_title{
+font-weight:bold;
+font-size:13px;
+font-family:arial;
+color:#000000;
+}
+#cat_hero #prodshot_detail .price{
+font-weight:bold;
+font-size:12px;
+font-family:arial;
+color:#333333;
+}
+#cat_hero #mod_text li.text{
+font-size:11px;
+font-family:arial;
+}
+#cat_hero #mod_text li.divider{
+padding:0 0 0 3px;
+color:#666666;
+}
+#cat_hero #mod_text li.divider a{
+margin:0 5px 0 0;
+}
+#cat_hero #mod_text{
+float:right;width:263px;
+}
+#cat_hero #mod_text li{
+display:inline;
+font-weight:bold;
+}
+#cat_hero a{
+color:#00869e;
+text-decoration:none;
+}
+#cat_hero a:visited{
+color:#00869e;
+text-decoration:none;
+}
+#cat_hero a:hover{
+color:#00869e;
+text-decoration:underline;
+}
+#cat_hero a:visited:hover{
+color:#00869e;
+text-decoration:underline;
+}
+#cat_hero.teal h3 { 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/mainSectionTop-teal.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+width:710;
+}
+#cat_hero.orange h3{ 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/mainSectionTop-orange.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFF;
+padding:3px 0 0 15px;
+width:710;
+}
+#cat_hero.black h3 { 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/mainSectionTop-black.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+width:710;
+}
+#cat_hero.green h3 { 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/li/mainSectionTop-green.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+width:710;
+}
+#cat_hero.green a{
+color:#009900;
+text-decoration:none;
+}
+#cat_hero.green a:visited{
+color:#009900;
+text-decoration:none;
+}
+#cat_hero.green a:hover{
+color:#009900;
+text-decoration:underline;
+}
+#cat_hero.green a:visited:hover{
+color:#009900;
+text-decoration:underline;
+}
+
+
+
+/* ImageSS */
+
+#ImageSSShell{
+margin:10px 8px 0 0;
+float:right;
+width:710px;
+}
+#ImageSS {
+height:77px;
+width:710px;
+padding:0px;
+float:right;
+}
+#ImageSS .ImageSSb{
+border-right:1px solid #cccccc;
+border-left:1px solid #cccccc;
+}
+#ImageSS ul{
+padding:10px 0 6px 0;
+margin:0 0 0 10px;
+width:690px;
+}
+#ImageSS li{
+Display:inline;
+margin:0 0 0 15px;
+}
+#ImageSS li img{
+height:75px;
+width:75px;
+border:1px solid #cccccc;
+}
+#ImageSSShell.teal h3 { 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/mainSectionTop-teal.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+}
+#ImageSSShell.orange h3 { 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/mainSectionTop-orange.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFF;
+padding:3px 0 0 15px;
+}
+#ImageSSShell.black h3 { 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/mainSectionTop-black.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+}
+#ImageSSShell.green h3 { 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/mainSectionTop-green.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+}
+#ImageSS .btm{
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/searchResults/sponsorAdBtm.gif);
+background-repeat: no-repeat;
+background-position: bottom left;height:4px;
+}
+
+
+/* List Item - 2 Side by Side */
+
+
+#ProductUL2I {
+width:710px;
+float:right;
+margin:0 8px 0 0;
+position:relative;top:-3px;
+}
+#ProductUL2I #bluel{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/li/bkg_blu_L.gif);
+background-repeat:no-repeat;
+font-family:arial;
+font-size:12px;
+width:354px;
+height:25px;
+padding:0 0 0 10px;
+color:white;
+border-left:1px solid #cccccc;
+border-right:1px solid #cccccc;
+}
+#ProductUL2I #bluer{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/li/bkg_blu_R.gif);
+background-repeat:no-repeat;
+font-family:arial;
+font-size:12px;
+width:354px;
+height:25px;
+padding:0 0 0 10px;
+color:white;
+border-right:1px solid #cccccc;
+}
+#ProductUL2I #greenl{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/li/bkg_grn_L.gif);
+background-repeat:no-repeat;
+font-family:arial;
+font-size:12px;
+width:354px;
+height:25px;
+padding:0 0 0 10px;
+color:white;
+border-left:1px solid #cccccc;
+border-right:1px solid #cccccc;
+}
+#ProductUL2I #greenr{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/li/bkg_grn_R.gif);
+background-repeat:no-repeat;
+font-family:arial;
+font-size:12px;
+width:354px;
+height:25px;
+padding:0 0 0 10px;
+color:white;
+border-right:1px solid #cccccc;
+}
+#ProductUL2I #greyl{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/li/bkg_bw_L.gif);
+background-repeat:no-repeat;
+font-family:arial;
+font-size:12px;
+width:354px;
+height:25px;
+padding:0 0 0 10px;
+color:white;
+border-left:1px solid #cccccc;
+border-right:1px solid #cccccc;
+}
+#ProductUL2I #greyr{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/li/bkg_bw_R.gif);
+background-repeat:no-repeat;
+font-family:arial;
+font-size:12px;
+width:354px;
+height:25px;
+padding:0 0 0 10px;
+color:white;
+border-right:1px solid #cccccc;
+}
+#ProductUL2I #btm{
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/searchResults/sponsorAdBtm.gif);
+background-repeat: no-repeat;
+background-position: bottom left;height:4px;
+}
+#ProductUL2I #ProductULP1{
+width:354px;
+border-left:1px solid #cccccc;
+border-right:1px solid #cccccc;
+}
+#ProductUL2I #ProductULP1 UL{
+padding:0 0 0 2px;
+}
+#ProductUL2I #ProductULP2 {
+width:354px;
+border-left:none;
+border-right:1px solid #cccccc;
+}
+#ProductUL2I #ProductULP2 UL{
+padding:0 0 0 2px;
+}
+#ProductUL2I LI{
+font-family:arial;
+font-size:11px;
+}
+#ProductUL2I a{
+color:#0c7994;
+text-decoration:none;
+font-size:11px;
+font-family:arial;
+}
+#ProductUL2I a:visited{
+color:#0c7994;
+text-decoration:none;
+}
+#ProductUL2I a:hover{
+color:#0c7994;
+text-decoration:underline;
+}
+#ProductUL2I a:visited:hover{
+color:#0c7994;
+text-decoration:underline;
+}
+
+
+/* Product Results */
+
+
+
+
+#TKR11 #SResults{
+width:708px;
+border:1px solid #cccccc;
+border-top:0px;
+}
+#TKR11 .details{
+width:437px;
+padding:5px 0 5px 30px;
+border-top:1px solid #cccccc;
+}
+#TKR11 .rating{
+width:143px;
+padding:8px 0 0 0;
+border-top:1px solid #cccccc;
+}
+#TKR11 .price{
+padding:5px 0 0 0;
+border-top:1px solid #cccccc;
+}
+#TKR11 #even{
+background-color:#f2f7fb;
+}
+#TKR11 #TKR2{
+font-size:11px;
+font-family:arial;
+color:#000000;
+padding:2px 0 0 0;
+}
+#TKR11 .TKR6{
+font-size:11px;
+font-family:arial;
+color:#0c7994;
+padding:0 5px 0 30px;
+}
+#TKR11 .TKR7{
+font-size:11px;
+font-family:arial;
+color:#0c7994;
+padding:0 0 0 360px;
+}
+#TKR11 .TKR8{
+font-size:11px;
+font-family:arial;
+color:#0c7994;
+padding:0 5px 0 143px;
+}
+#TKR11 #TKR0{
+background-color:#f2f0e9;
+border-right:1px solid #cccccc;
+border-left:1px solid #cccccc;
+width:706px;
+}
+#TKR11 #TKR12{
+background-color:#e4efee;
+height:5px;
+}
+#TKR11 ul.TKR3{
+list-style: none;
+margin:0px;
+padding:0px;
+}
+#TKR11 .TKR3 li{
+display:inline;
+}
+#TKR11 a.main{
+color:#0c7994;
+text-decoration:none;
+font-weight:bold;
+font-size:12px;
+font-family:arial;
+}
+#TKR11 a.main:visited{
+color:#0c7994;
+text-decoration:none;
+font-weight:bold;
+}
+#TKR11 a.main:hover{
+color:#0c7994;
+text-decoration:underline;
+font-weight:bold;
+}
+#TKR11 a.main:visited:hover{
+color:#0c7994;
+text-decoration:underline;
+font-weight:bold;
+}
+#TKR11 a.sub{
+color:#0c7994;
+text-decoration:none;
+font-size:11px;
+font-family:arial;
+padding:0 10px 0 0;
+}
+#TKR11 a.sub:visited{
+color:#0c7994;
+text-decoration:none;
+}
+#TKR11 a.sub:hover{
+color:#0c7994;
+text-decoration:underline;
+}
+#TKR11 a.sub:visited:hover{
+color:#0c7994;
+text-decoration:underline;
+}
+#TKR11 .indent{
+padding:0 0 0 15px;
+}
+#TKR11.orange h3{ 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/mainSectionTop-orange.gif);
+background-repeat:no-repeat;
+height:20px;
+font-size:12px;
+font-family:arial;
+color:#000000;
+padding:2px 0 0 0;
+width:708px;
+margin:0px;
+}
+#TKR11.teal h3{ 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/mainSectionTop-teal.gif);
+background-repeat:no-repeat;
+height:20px;
+font-size:12px;
+font-family:arial;
+color:#FFFFFF;
+padding:2px 0 0 0;
+width:708px;
+margin:0px;
+}
+#TKR11.black h3{ 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/mainSectionTop-black.gif);
+background-repeat:no-repeat;
+height:20px;
+font-size:12px;
+font-family:arial;
+color:#FFFFFF;
+padding:2px 0 0 0;
+width:708px;
+margin:0px;
+}
+
+/* SCGrid */
+
+#SCGrid{
+width:710px;
+margin:0 0 10px 0;
+}
+#SCGrid .Title{
+color:#0c7994;
+text-decoration:none;
+font-weight:bold;
+font-size:12px;
+font-family:arial;
+}
+#SCGrid .Description{
+font-size:11px;
+font-family:arial;
+color:#000000;
+padding:2px 0 0 0;
+}
+#SCGrid .Sub1{
+font-weight:bold;
+display:inline;
+}
+#SCGrid .Sub1 a{
+font-weight:bold;
+display:inline;
+padding:0 5px 0 0;
+}
+#SCGrid .Sub2{
+font-weight:bold;
+display:inline;
+padding:0 0 0 2px;
+}
+#SCGrid a{
+color:#0c7994;
+text-decoration:none;
+font-size:12px;
+font-family:arial;
+}
+#SCGrid a:visited{
+color:#0c7994;
+text-decoration:none;
+font-size:12px;
+font-family:arial;
+}
+#SCGrid a:hover{
+color:#0c7994;
+text-decoration:underline;
+font-size:12px;
+font-family:arial;
+}
+#SCGrid a:visited:hover{
+color:#0c7994;
+text-decoration:underline;
+font-size:12px;
+font-family:arial;
+}
+#SCGrid .indent{
+padding:0 0 0 15px;
+}
+#SCGrid.orange h3{ 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/mainSectionTop-orange.gif);
+background-repeat:no-repeat;
+height:20px;
+font-size:12px;
+font-family:arial;
+color:#000000;
+padding:2px 0 0 0;
+width:710px;
+margin:0px;
+}
+#SCGrid.teal h3{ 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/mainSectionTop-teal.gif);
+background-repeat:no-repeat;
+height:20px;
+font-size:12px;
+font-family:arial;
+color:#FFFFFF;
+padding:2px 0 0 0;
+width:710px;
+margin:0px;
+}
+#SCGrid.black h3{ 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/mainSectionTop-black.gif);
+background-repeat:no-repeat;
+height:20px;
+font-size:12px;
+font-family:arial;
+color:#FFFFFF;
+padding:2px 0 0 0;
+width:710px;
+margin:0px;
+}
+#SCGrid.green h3{ 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/content/mainSectionTop-green.gif);
+background-repeat:no-repeat;
+height:20px;
+font-size:12px;
+font-family:arial;
+color:#FFFFFF;
+padding:2px 0 0 0;
+width:710px;
+margin:0px;
+}
+#SCGrid #prodshell{
+width:322px;
+margin:20px 0 0 0;
+}
+#SCGrid #prodshell.odd{
+float:left;
+}
+#SCGrid #prodshell.even{
+float:right;
+}
+#SCGrid #prodshell img{
+border:1px solid #cccccc;
+width:100px;
+height:100px;
+}
+#SCGrid .center{
+padding:0px 0px 20px 25px;
+}
+#SCGrid #outershell{
+width:710px;
+}
+#SCGrid #outershell #topshell{
+border:1px solid #cccccc;
+border-bottom:0px;
+}
+#SCGrid .btm{
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/searchResults/sponsorAdBtm.gif);
+background-repeat: no-repeat;
+background-position: bottom left;height:4px;
+}
+#SCGrid #leftfloat{
+float:left;
+width:110px;
+}
+
+
+/* HMHero */
+
+#hmheroshell{
+width:951px;
+height:292px;
+}
+#hmheroshell h1{
+font-size:14pt;
+color:#8f8f8f;
+font-family:arial narrow;
+margin:15px 0 0 10px;
+}
+#hmheroshell h2{
+font-size:10pt;
+color:#00316d;
+font-family:arial;
+margin:10px 0 0 0;
+}
+#hmheroshell #dl .dltx h3{
+font-size:9pt;
+color:#000000;
+font-family:arial;
+margin:5px 0 3px 10px;
+}
+#hmheroshell #hero_bubble{
+width:640px;
+height:270px;
+margin:10px 0 0 305px;
+}
+#hmheroshell #hero_bubble #top{
+width:430px;
+height:50px;
+}
+#hmheroshell #hero_bubble #left{
+width:170px;
+height:210px;
+overflow:hidden;
+}
+#hmheroshell #hero_bubble #right{
+width:270px;
+height:210px;
+overflow:hidden;
+}
+#hmheroshell #hero_bubble #farright{
+width:240px;
+}
+#hmheroshell #hero_bubble img{
+border:0px;
+}
+#hmheroshell #content{
+margin:0px;
+padding:0 0 0 5px;
+width:270px;
+font-size:12px;
+font-family:arial;
+list-style: none;
+}
+#hmheroshell #content .desc{
+margin:5px 0 5px 0;
+}
+#hmheroshell #content .learn{
+display:inline;
+}
+#hmheroshell #content .learn a{
+margin:0 5px 0 0;
+}
+#hmheroshell #content .specs{
+display:inline;
+}
+#hmheroshell #content .specs a{
+margin:0 5px 0 4px;
+}
+#hmheroshell #content .reviews{
+display:inline;
+}
+#hmheroshell #content .reviews a{
+margin:0 0 0 4px;
+}
+#hmheroshell #content .more{
+font-size:10pt;
+color:#8f8f8f;
+font-family:arial;
+margin:10px 0 0 0;
+}
+#hmheroshell #content .item{
+font-size:8pt;
+font-family:arial;
+margin:2px 0 0 0;
+list-style: circle inside;
+color:#00316d;
+}
+#hmheroshell a{
+color:#00869e;
+text-decoration:none;
+}
+#hmheroshell a:visited{
+color:#00869e;
+text-decoration:none;
+}
+#hmheroshell a:hover{
+color:#00869e;
+text-decoration:underline;
+}
+#hmheroshell a:visited:hover{
+color:#00869e;
+text-decoration:underline;
+}
+#hmheroshell .dlitem a{
+color:#000000;
+text-decoration:none;
+}
+#hmheroshell .dlitem a:visited{
+color:#000000;
+text-decoration:none;
+}
+#hmheroshell .dlitem a:hover{
+color:#000000;
+text-decoration:underline;
+}
+#hmheroshell .dlitem a:visited:hover{
+color:#000000;
+text-decoration:underline;
+}
+#hmheroshell #dl {
+width:188px;
+margin:0 2px 0 0;
+float:right;
+}
+#hmheroshell #dl .dlimg{
+float:right;
+margin:2px 8px 2px 0;
+}
+#hmheroshell #dl .desc{
+margin:0 2px 0 10px;
+font-size:8pt;
+font-family:arial;
+width:170px;
+line-height:15px;
+}
+#hmheroshell #dl .more{
+margin:0px 2px 0 10px;
+font-size:8pt;
+font-family:arial;
+font-weight:bold;
+}
+#hmheroshell #dl #dllist{
+line-height:14px;
+margin:0 0 0 10px;
+}
+#hmheroshell #dl .dlitem{
+list-style: square inside;
+width:150px;
+height:15px;
+overflow:hidden;
+font-size:8pt;
+}
+#hmheroshell #dl .dlitem a{
+margin:0 0 0 5px;
+}
+
+/* Home Page RSS */
+
+#W194.orange h3{ 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/LI/hdr_mod_orn.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+width:194px;
+margin:0px;
+}
+#W194.black h3{ 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/LI/hdr_mod_slate.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+width:194px;
+margin:0px;
+}
+#W194.teal h3{ 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/LI/hdr_mod_teal.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+width:194px;
+margin:0px;
+}
+#W194.green h3{ 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/LI/hdr_mod_grn.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+width:194px;
+margin:0px;
+}
+#W194 {
+width:194px;
+}
+#W194 .rssFeedButton{
+margin:0 0 0 67px;
+position:relative;bottom:-3px;
+}
+#W194 ul{
+list-style:none;
+margin:0px;
+padding:0px;
+}
+#W194 li{
+border:1px solid #cccccc;
+border-bottom:0px;
+padding:2px 0 2px 5px;
+}
+#W194 li.bottom{
+border-bottom:1px solid #cccccc;
+}
+#W194 a{
+color:#0c7994;
+text-decoration:none;
+font-size:11px;
+font-family:arial;
+}
+#W194 a:visited{
+color:#0c7994;
+text-decoration:none;
+}
+#W194 a:hover{
+color:#0c7994;
+text-decoration:underline;
+}
+#W194 a:visited:hover{
+color:#0c7994;
+text-decoration:underline;
+}
+
+
+
+/* Home Page Rapid Risers */
+
+#RAPIDRISER li.top{
+margin:0px;
+padding:0px;
+border:0px;
+}
+#RAPIDRISER.teal h3 {
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/LI/hmhdr_mod_teal.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+width:234px;
+margin:0px;
+}
+#RAPIDRISER.black h3 {
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/LI/hmhdr_mod_slate.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+width:234px;
+margin:0px;
+}
+#RAPIDRISER.green h3 {
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/LI/hmhdr_mod_grn.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+width:234px;
+margin:0px;
+}
+#RAPIDRISER {
+width:234px;
+}
+#RAPIDRISER.green h4 {
+}
+#RAPIDRISER ul{
+list-style:none;
+margin:0px;padding:0px;
+}
+#RAPIDRISER li{
+color:#000000;
+text-decoration:none;
+font-size:11px;
+font-family:arial;
+border-left:1px solid #cccccc;
+border-right:1px solid #cccccc;
+padding:2px 0 2px 5px;
+}
+#RAPIDRISER li.middle{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/LI/rapidrisers_arrow.jpg);
+background-repeat:no-repeat;
+background-position:5px 5px;
+padding:2px 2px 2px 22px;
+height:17px;
+overflow:hidden;
+font-weight:bold;
+border:1px solid #cccccc;
+border-bottom:0px;
+}
+#RAPIDRISER li#first.middle{
+border-top:0px;
+}
+#RAPIDRISER li.second{
+padding:0px 2px 2px 22px;
+height:15px;
+overflow:hidden;
+  border-right:1px solid #cccccc;
+  border-left:1px solid #cccccc;
+  font-size:10px;
+}
+#RAPIDRISER li.bottomsecond{
+padding:0px 2px 2px 22px;
+height:15px;
+overflow:hidden;
+border-right:1px solid #cccccc;
+border-left:1px solid #cccccc;
+font-size:10px;
+border-bottom:1px solid #cccccc;
+}
+#RAPIDRISER li.bottom{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/LI/rapidrisers_arrow.jpg);
+background-repeat:no-repeat;
+background-position:5px 5px;
+padding:2px 2px 2px 22px;
+border:1px solid #cccccc;
+border-bottom:0px;
+height:17px;
+overflow:hidden;
+font-weight:bold;
+}
+#RAPIDRISER li.top{
+margin:0px;
+padding:0px;
+border-right:1px solid #cccccc;
+border-left:1px solid #cccccc;
+}
+#RAPIDRISER a{
+color:#0c7994;
+text-decoration:none;
+font-size:11px;
+font-family:arial;
+}
+#RAPIDRISER a:visited{
+color:#0c7994;
+text-decoration:none;
+}
+#RAPIDRISER a:hover{
+color:#0c7994;
+text-decoration:underline;
+}
+#RAPIDRISER a:visited:hover{
+color:#0c7994;
+text-decoration:underline;
+}
+
+/* Home Page Popular */
+
+#W234.teal h3 { 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/LI/hmhdr_mod_teal.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+width:234px;
+margin:0px;
+}
+#W234.black h3 { 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/LI/hmhdr_mod_slate.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+width:234px;
+margin:0px;
+}
+#W234.green h3 { 
+background-image: url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/LI/hmhdr_mod_grn.gif);
+background-repeat:no-repeat;
+height:24px;
+font-size:13px;
+font-family:arial;
+color:#FFFFFF;
+padding:3px 0 0 15px;
+width:234px;
+margin:0px;
+}
+#W234 {
+width:234px;
+}
+#W234 ul{
+list-style:none;
+margin:0px;
+padding:0px;
+overflow:hidden;
+}
+#W234 li{
+border:1px solid #cccccc;
+border-bottom:0px;
+padding:6px 0 7px 5px;
+height:15px;
+overflow:hidden;
+}
+#W234 li.bottom{
+border-bottom:1px solid #cccccc;
+}
+#W234 a{
+color:#0c7994;
+text-decoration:none;
+font-size:11px;
+font-family:arial;
+}
+#W234 a:visited{
+color:#0c7994;
+text-decoration:none;
+}
+#W234 a:hover{
+color:#0c7994;
+text-decoration:underline;
+}
+#W234 a:visited:hover{
+color:#0c7994;
+text-decoration:underline;
+}
+#W234 .container{
+width:230px;
+margin:0 0 0 1px;
+border-left:1px solid #ccc;
+border-right:1px solid #ccc;
+border-bottom:1px solid #ccc;
+}
+#W234 .container img{
+display:block;
+}
+#W234 .container img.img1{
+width:230px;
+height:130px;
+}
+#W234 .container img.img2{
+width:230px;
+height:100px;
+margin:2px 0 0 0;
+}
+#W234 .container .products{
+width:210px;
+padding:11px 0 0 13px;
+}
+#W234 .container .products div.prodimg{
+float:left;
+width:100px;
+}
+#W234 .container .products div.rtcontent{
+float:right;
+width:100px;
+margin:0 2px 0 0;
+}
+#W234 .container .products div.title{
+font-size:12px;
+font-family:arial;
+color:#000;
+font-weight:bold;
+text-align:center;
+}
+#W234 .container .products div.price{
+font-size:12px;
+font-family:arial;
+color:#666;
+text-align:center;
+margin:5px 0 5px 0;
+}
+#W234 .container .products div.cart{
+text-align:center;
+width:94px;
+height:26px;
+}
+#W234 .container .products div.text{
+font-size:11px;
+color:#666;
+font-family:arial;
+margin:8px 0 9px 0;
+height:87px;
+}
+#W234 .container .products div.more{
+font-weight:bold;
+}
+#W234 .container .products div.more a{
+float:left;
+margin:0 10px 0 0;
+}
+#W234 .container .products div.more img{
+float:left;
+margin:3px 0 0 0;
+}
+
+
+/* Content Pages Template */
+
+#ctwidth{
+width:650px;
+}
+#ctwidth .logo{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ContentPages/MarketLogo.jpg);
+background-repeat:no-repeat;
+width:425px;
+height:134px;
+}
+#ctwidth li.bullet{
+list-style:disc inside;
+}
+#ctwidth li#bullet{
+list-style:disc inside;
+}
+margin:0px 0 20px 0;
+}
+#ctwidth li{
+margin:0 0 10px 0;
+font-size:12px;
+color:#000000;
+font-family:arial;
+}
+#ctwidth li h3{
+font-size:12px;
+color:#3c6e8e;
+font-family:arial;
+display:inline;
+margin:0 2px 0 0;
+}
+#ctwidth li.more{
+margin:30px 0 0 0;
+}
+#ctwidth .Pagetitle h2{
+margin:20px 0 20px 0;
+font-family:arial;
+font-size:14px;
+color:#000;
+}
+#ctwidth li.small{
+margin:0px 0 2px 0;
+}
+#ctwidth li.bold{
+font-weight:bold;
+}
+#ctwidth li#small{
+margin:0px 0 2px 0;
+}
+#ctwidth li#bold{
+font-weight:bold;
+}
+#ctwidth li.italic{
+font-style: oblique;
+margin:10px 0 0 0;
+}
+#ctwidth hr{
+border: none 0;
+border-top:1px dashed #ccc;
+height:1px;
+}
+
+/* IE Addons Category */
+
+#IE_Cat_Hero{
+float:right;
+margin:0 5px 0px 0;
+position:relative;
+bottom:-5px;
+}
+#IE_Cat_Hero tr{
+margin:0px;
+padding:0px;
+}
+#IE_Cat_Hero #hero_bg.security{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ShowcasePages/IEAddons/heroes/bkg_security_nt.gif);
+background-repeat:no-repeat;
+height:164px;
+width:710px;
+}
+#IE_Cat_Hero .browse{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ShowcasePages/IEAddons/heroes/bkg_browsers_nt.gif);
+background-repeat:no-repeat;
+height:164px;
+width:710px;
+}
+#IE_Cat_Hero .time{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ShowcasePages/IEAddons/heroes/bkg_timesavers_nt.gif);
+background-repeat:no-repeat;
+height:164px;
+width:710px;
+}
+#IE_Cat_Hero .entertainment{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ShowcasePages/IEAddons/heroes/bkg_entertainment_nt.gif);
+background-repeat:no-repeat;
+height:164px;
+width:710px;
+}
+#IE_Cat_Hero .main{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ShowcasePages/IEAddons/heroes/bkg_home.jpg);
+background-repeat:no-repeat;
+height:164px;
+width:710px;
+}
+#IE_Cat_Hero a{
+color:#fff;
+}
+#IE_Cat_Hero #popitems{
+margin:15px 0 0 180px;
+}
+#IE_Cat_Hero #popitems li{
+margin:5px 0 0 0;
+}
+#IE_Cat_Hero #popitems li.title{
+font-size:15pt;
+color:#fff;
+margin:0 0 10px 0;
+}
+#IE7DownloadBar{
+float:right;
+margin:0 10px 0 0;
+position:relative;
+bottom:-13px;
+}
+
+/* digital locker tour */
+
+#dltour{
+width:710px;
+margin:0 10px 15px 0;
+float:right;
+}
+#dltour li.item1{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ContentPages/digitallockertour/1_T.gif);
+background-repeat:no-repeat;
+width:710px;
+height:60px;
+}
+#dltour li.item2{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ContentPages/digitallockertour/2_T.gif);
+background-repeat:no-repeat;
+width:710px;
+height:60px;
+}
+#dltour li.item3{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ContentPages/digitallockertour/3_T.gif);
+background-repeat:no-repeat;
+width:710px;
+height:60px;
+}
+#dltour li.item4{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ContentPages/digitallockertour/4_T.gif);
+background-repeat:no-repeat;
+width:710px;
+height:60px;
+}
+#dltour li.item5{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ContentPages/digitallockertour/5_T.gif);
+background-repeat:no-repeat;
+width:710px;
+height:60px;
+}
+#dltour #innertable .text{
+margin:20px 0 0 0;
+padding:0 10px 0 10px;
+font-size:10pt;
+}
+#dltour #innertable .bullet1{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ContentPages/digitallockertour/1_bulletlist.gif);
+background-repeat:no-repeat;
+background-position:bottom left;
+width:504px;
+height:90px;
+margin:10px 0 0 0;
+}
+#dltour #innertable .bullet2{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ContentPages/digitallockertour/2_bulletlist.gif);
+background-repeat:no-repeat;
+background-position:bottom left;
+width:504px;
+height:90px;
+margin:10px 0 0 0;
+}
+#dltour #innertable .bullet3{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ContentPages/digitallockertour/3_bulletlist.gif);
+background-repeat:no-repeat;
+background-position:bottom left;
+width:504px;
+height:90px;
+margin:10px 0 0 0;
+}
+#dltour #innertable .bullet4{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ContentPages/digitallockertour/4_bulletlist.gif);
+background-repeat:no-repeat;
+background-position:bottom left;
+width:504px;
+height:90px;
+margin:10px 0 0 0;
+}
+#dltour #innertable .bullet5{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ContentPages/digitallockertour/5_bulletlist.gif);
+background-repeat:no-repeat;
+background-position:bottom left;
+width:504px;
+height:90px;
+margin:10px 0 0 0;
+}
+#dltour #innertable .button{
+padding:0 0 0 30px;
+width:130px;
+}
+#dltour #innertable{
+width:710px;
+border-right:1px solid #ababab;
+border-left:1px solid #ababab;
+}
+#dltour .bottom{
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ContentPages/digitallockertour/frame_B.gif);
+background-repeat:no-repeat;
+width:710px;
+height:19px;
+}
+
+/* site map */
+
+
+#siteMap {
+font-family:arial;
+font-size:9pt;
+}
+#siteMap .sm_navBar{
+font-weight:bold;
+background-image:url(http://web.archive.org/web/20071002182540im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/modules/ContentPages/bkg_tab.gif);
+height:22px;
+padding:2px 0 0 55px;
+}
+#siteMap .sm_navBar a{
+margin:0 10px 0 10px;
+}
+#siteMap .sm_header{
+font-size:15pt;
+color:#7E7E7E;
+padding:0 0 10px 10px;
+}
+#siteMap .sm_subheader{
+font-size:15pt;
+color:#7E7E7E;
+padding:20px 0 10px 65px;
+border-bottom:1px solid #d2d2d2;
+width:90%;
+}
+#siteMap a{
+color:#7e7e7e;
+text-decoration:none;
+}
+#siteMap a:visited{
+color:#7e7e7e;
+text-decoration:none;
+}
+#siteMap a:hover{
+color:#7e7e7e;
+text-decoration:underline;
+}
+#siteMap a:visited:hover{
+color:#7e7e7e;
+text-decoration:underline;
+}
+#siteMap table{
+float:right;
+margin:0 5px 10px 0;
+}
+#siteMap #items td{
+width:270px;
+}
+#siteMap li.spacer{
+padding:0 0 30px 0;
+}
+
+
+/* CFRecommends */
+
+.recommend .recommendContent li{
+list-style:disc inside;
+line-height:18px;
+}
+
+/* Ads */
+
+#homead{
+margin:0 0 0 7px;
+}
+#homead h4{
+font-size:10px;
+color:#ccc;
+margin:0 0 0 60px;
+}
+#homead .ad{
+position:relative;top:-1px;
+}
+#searchad{
+margin:150px 0 0 25px;
+}
+#searchad h4{
+font-size:10px;
+color:#ccc;
+margin:0 0 0 40px;
+}
+#detailad{
+margin:20px 0 0 15px;
+}
+#detailad h4{
+font-size:10px;
+color:#ccc;
+margin:0 0 0 40px;
+border:0px;
+}
+
+/*
+     FILE ARCHIVED ON 18:25:40 Oct 02, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:33:51 Aug 25, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 215.308
+  exclusion.robots: 0.085
+  exclusion.robots.policy: 0.07
+  cdx.remote: 0.061
+  esindex: 0.011
+  LoadShardBlock: 136.695 (3)
+  PetaboxLoader3.resolve: 148.207 (4)
+  PetaboxLoader3.datanode: 47.415 (4)
+  load_resource: 62.501
+*/

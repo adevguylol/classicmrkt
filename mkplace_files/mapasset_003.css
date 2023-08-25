@@ -1,0 +1,164 @@
+/*========================================================================*/
+/* Styles for tabs */
+ul#tabs li#activeTab a{width: 160px; background-image:url(http://web.archive.org/web/20071002182519im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/nav_assets/tab_over.gif);background-repeat: no-repeat;height:22px;padding:6px 0 0 0;}  
+
+ul#tabs li#activeTab a:hover {}
+
+ul#tabs li#activeTab span#tab1 em { background-image: url(http://web.archive.org/web/20071002182519im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/tabs/download-tab-icon.gif);
+   background-repeat: no-repeat;
+   background-position: center left;
+   padding: 11px 14px 11px 11px; }
+   
+ul#tabs li#activeTab span#tabBottom { 
+   padding: 0; }
+/*========================================================================*/
+
+/* Unfloat submenu list items */
+#topNavigation li a { display: block; width: 179px; font-size: 8pt;
+	border-left: none;
+	border-right: none;
+	border-top: solid 1px #fff;
+	border-bottom: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-right: 1px; }
+
+#topNavigation li ul { border-top: solid 1px #9ae307; }
+
+#topNavigation li.topNavDropDown a{padding:0 0 4px 0;}
+
+.topNavDropDown a:hover, .topNavDropDown a.keyboardFocus
+{ background-image: url(http://web.archive.org/web/20071002182519im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/menus/menu-downloads-over.jpg); color: #000; }
+
+/* Hover over main menu items */
+/* class .listhover is for IE6 to trigger rollover effect on main menu item */
+
+#topNavigation li.topNavDropDown:hover a, #topNavigation li.topNavDropDown.listHover a, #topNavigation li.listHover a.keyboardFocus
+{ 	background-image:url(http://web.archive.org/web/20071002182519im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/nav_assets/subtab_over.gif);
+	color: #000;
+	border-left: none; padding:0 0 4px 0; }
+
+/* Styles for submenus */
+div#topnav #topNavigation li ul li.topNavLink a
+{
+	color: #000;
+	width: 172px;
+	background-color: transparent;
+	background-image: url(http://web.archive.org/web/20071002182519im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/menus/sub-menu-body.png);
+	background-repeat: repeat-y;
+}
+
+div#topnav #topNavigation li ul li.topNavLink a:hover, div#topnav #topNavigation li.listHover  ul li.topNavLink a.keyboardFocus { color: #000; }
+
+/* Remove background-image off dropdown menu items */
+/* class .listhover is for IE6 */
+#topNavigation li.topNavDropDown:hover ul a, #topNavigation li.topNavDropDown.listHover ul a, #topNavigation li.topNavDropDown.listHover ul li.listHover a.keyboardFocus{ background-image: none; }
+
+
+#topNavigation li a {
+	background-image: url(http://web.archive.org/web/20071002182519im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/nav_assets/submenu_m.gif);
+	background-repeat: repeat-x;
+	color: #000;
+	text-decoration: none; }
+
+/* Styles for submenu, including opacity */
+#topNavigation ul li a { background-image: none; background-color: #000;
+	text-align: left; }
+#topNavigation ul li a:hover, ul#topNavigation li.topNavDropDown.listHover ul li.topNavLink.listHover a.keyboardFocus { background-image: none;
+	background-color: #DAF1FD; cursor: pointer; }
+#topNavigation li ul li a {
+	padding-left: 8px; width: 180px; }
+
+div#topnav ul#topNavigation ul li.topNavLink.menubottom a {
+	background-color: transparent;
+	width: 169px;
+    padding-bottom: 10px;
+	background-image: url(http://web.archive.org/web/20071002182519im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/menus/sub-menu-bottom.png);
+	background-position: bottom left;
+	background-repeat: no-repeat; }
+ 
+div#topnav #topNavigation ul li a span 	{ background-image: none;
+	display: block; 
+	width: 160px;
+	border: solid 1px #FDFDFE;
+	padding: 2px 2px;
+	margin-left: -4px;
+    font-size: 8pt;
+    line-height: 8pt; }
+div#topnav #topNavigation ul li a:hover span, div#topnav #topNavigation ul li.listHover a.keyboardFocus span { background-image: none;
+	border: solid 1px #A7E3FE; 
+	background-image: url(http://web.archive.org/web/20071002182519im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/menus/sub-menu-rollover.gif);
+	background-repeat: repeat-x;
+	background-position: center left; }
+	
+/* Fix for Firefox transparent border problem on submenus */
+div#topnav ul#topNavigation li ul li.topNavLink { margin-bottom: 0px; }
+
+/* Style for Menu Dividers*/
+div#topnav ul#topNavigation li ul li.topNavLink.menuDivider { height: 4px;
+   padding: 3px 0 0 0;
+	background-image: url(http://web.archive.org/web/20071002182519im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/frame_elements/menus/sub-menu-body.png);
+	background-repeat: repeat-y; }
+div#topnav ul#topNavigation li ul li.topNavLink.menuDivider { width: 179px; }
+div#topnav ul#topNavigation li ul li.topNavLink.menuDivider hr { margin: 0;
+   padding: 0px;
+   border-style: none;
+   width: 174px;
+   border-top: solid 1px #999;
+   height: 0px;
+   color: #999; background-color: #999;
+   text-align: center; }
+li#menuEndLeft span { float: left;
+   display: block;
+   width: 30px;
+   background-color: fff;
+   padding: 4px 0 0 0;
+   border-top: solid 1px #fff;
+
+   background-image: url(http://web.archive.org/web/20071002182519im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/nav_assets/submenu_left.gif);
+   background-repeat: no-repeat; }
+li#menuEndRight div {  float: right;
+   display: block;
+   width: 100%;
+   margin-right: 1px;
+   margin-left:1px;
+   background-color: #fff;
+   padding: 4px 0 0 0;
+   border-top: solid 1px #fff;
+   background-image: url(http://web.archive.org/web/20071002182519im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/nav_assets/submenu_r.gif);
+   background-repeat: no-repeat;
+   background-position: top right; 
+   
+   position: relative;
+   right: 0px;
+   z-index: 1; }
+div#topnav ul#topNavigation li. { position: relative; }
+div#topnav #topNavigation li ul li.topNavLink { position: static; }
+
+/* First tab active states */
+ul#tabs #tab2{padding:6px 0 0 0;}
+ul#tabs #tab3{padding:6px 0 0 0;}
+
+ul#tabs a:hover#tab2{background-image:url(http://web.archive.org/web/20071002182519im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/nav_assets/tab_hover.gif);background-repeat: no-repeat;width: 160px;height:22px; }   
+ul#tabs a:hover#tab3{background-image:url(http://web.archive.org/web/20071002182519im_/http://images.windowsmarketplace.com/img/edt/Marketplace2.0/nav_assets/tab_hover.gif);background-repeat: no-repeat;width: 160px;height:22px; }
+
+
+/*
+     FILE ARCHIVED ON 18:25:19 Oct 02, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:33:50 Aug 25, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 218.826
+  exclusion.robots: 0.071
+  exclusion.robots.policy: 0.063
+  cdx.remote: 0.097
+  esindex: 0.016
+  LoadShardBlock: 114.986 (3)
+  PetaboxLoader3.datanode: 283.878 (4)
+  load_resource: 558.987
+  PetaboxLoader3.resolve: 375.103
+*/

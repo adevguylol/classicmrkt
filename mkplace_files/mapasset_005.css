@@ -1,0 +1,26 @@
+/* Layout Home */
+/* Cancel text centering caused by IE centering on #frame */
+#bframe div { text-align: left; }
+div#hero { padding: 0; }
+#content { margin-left: 220px; padding: 10px;  }
+
+/*
+     FILE ARCHIVED ON 18:25:23 Oct 02, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:33:52 Aug 25, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1618.492
+  exclusion.robots: 0.096
+  exclusion.robots.policy: 0.087
+  cdx.remote: 0.069
+  esindex: 0.008
+  LoadShardBlock: 363.727 (3)
+  PetaboxLoader3.datanode: 291.828 (4)
+  load_resource: 1093.789
+  PetaboxLoader3.resolve: 1044.608
+*/
